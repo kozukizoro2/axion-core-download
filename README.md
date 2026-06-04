@@ -1,97 +1,119 @@
 # AXION CORE
 
-**AXION CORE** is a free beta Windows desktop app for organizing Plex, Jellyfin, and Emby media libraries.
+**AXION CORE** is a Windows desktop media server manager for Plex, Jellyfin, and Emby libraries.
 
-It helps clean messy folders, rename media files, detect Movies / TV / Anime, map anime seasons with AniList + TMDB, detect quality with FFprobe, and preview every change before applying it.
+It helps you clean mixed folders, rename media files, detect Movies / TV / Anime, plan safe library moves, review subtitles/audio tracks, and preview every change before anything touches your files.
 
-Website: https://axioncore.app
-
----
-
-## Free Beta
-
-AXION CORE is currently free during beta while we collect feedback and improve the app.
-
-The goal of this beta is to test real-world media libraries, find edge cases, improve detection accuracy, and build a better workflow for Plex, Jellyfin, and Emby users.
+Website: https://axioncore.app  
+Support: support@axioncore.app
 
 ---
 
-## Features
+## Current Beta
 
-- Smart media organizing for Movies / TV / Anime
-- Plex, Jellyfin, and Emby-friendly folder structure
-- Preview changes before applying anything
-- AniList + TMDB mapping for anime and long-running shows
-- Quality detection using FFprobe
-- Smart conflict handling
-- Undo and activity history
-- Optional AI-assisted filename parsing
-- Windows-first beta release
+AXION CORE is in Windows beta. The beta includes a free mode for testing the workflow, plus a **Pro Lifetime** license for full-library use.
+
+- **Free Beta**: preview the app, test small batches, and confirm that the workflow fits your server.
+- **Pro Lifetime**: unlock large batches, full Library Planner, batch convert, Media Health auto-fix, AXION AI Advisor, and one-device Pro activation.
 
 ---
 
-## What AXION CORE is for
+## Core Workflows
 
-AXION CORE is built for people who already have media files and want to clean their library structure.
+### Command Center
+
+Monitor server status, storage, pending actions, library totals, and health signals from one control surface.
+
+### Media Organizer
+
+Scan a folder, match files with TMDB/AniList, preview current vs proposed names, group results by Movies / TV Shows / Anime, then apply only what you approve.
+
+### Library Planner
+
+Clean an existing mixed library. AXION CORE scans the selected folder, detects misplaced Movies / TV / Anime, shows grouped destination plans, flags conflicts, and lets you apply safe moves with undo support.
+
+### Auto Organizer
+
+Watch your download folder after your library is configured. New files can be detected, cleaned, converted when needed, and moved into the right destination.
+
+### Convert & Subtitles
+
+Remux videos to MKV, keep/remove subtitle and audio tracks, add external `.srt` / `.ass` subtitles, and batch process media with preview controls.
+
+### Media Health Center
+
+Review bad names, duplicates, empty folders, low-quality files, old large files, and AI-assisted repair suggestions from one health-focused workflow.
+
+### AXION AI Advisor
+
+Use local AI through Ollama when available, with optional cloud AI providers. AI can assist with difficult mixed folders, messy release names, and library repair suggestions.
+
+---
+
+## Why AXION CORE Exists
+
+AXION CORE is built for people who already have media files and want a safer way to structure them.
 
 It is useful for:
 
 - Messy download folders
-- Mixed Movies / TV / Anime folders
+- Mixed Movies / TV / Anime libraries
 - Incorrect episode names
 - Wrong season structure
 - Anime episode-to-season mapping
+- Subtitle and audio track cleanup
 - Large Plex / Jellyfin / Emby libraries
 - Preview-first cleanup before moving files into a server library
 
 ---
 
-## What AXION CORE is not
+## What AXION CORE Is Not
 
-AXION CORE does not provide media, download media, index torrents, or replace Sonarr/Radarr.
+AXION CORE does **not** provide media, download media, index torrents, or replace Sonarr/Radarr.
 
-It is designed to complement existing tools by focusing on cleanup, structure, preview, and organization.
+It complements your existing setup by focusing on cleanup, structure, preview, repair, conversion, and undoable organization.
 
 ---
 
 ## Download
 
-Download the latest beta from:
+Download the latest Windows beta from:
 
 https://axioncore.app
 
-Or check the GitHub Releases section:
+Or use GitHub Releases:
 
 https://github.com/kozukizoro2/axion-core-download/releases
 
----
-
-## Feedback
-
-This is an early beta. Feedback is very welcome.
-
-Please report:
-
-- Detection mistakes
-- Wrong season mapping
-- Rename issues
-- UI bugs
-- Missing workflows
-- Feature requests
-
-You can open an issue here on GitHub or email:
-
-support@axioncore.app
+Use the installer for normal installation, or the portable build if you want to test without installing.
 
 ---
 
 ## Safety
 
-AXION CORE is designed with a preview-first workflow.
+AXION CORE is designed around a preview-first workflow.
 
-The app shows proposed changes before applying them, and operations are logged for undo/history.
+The app shows proposed changes before applying them, and applied operations are logged for undo/history.
 
-Still, because this is beta software, you should test it first on a small folder or copied sample files before using it on a full library.
+Because this is beta software, test it first on a small folder or copied sample before applying changes to a full production library.
+
+---
+
+## Feedback
+
+This beta is shaped by real-world library testing. Please report:
+
+- Detection mistakes
+- Wrong season mapping
+- Rename issues
+- Library Planner conflicts
+- UI bugs
+- Missing workflows
+- Feature requests
+
+Open a GitHub issue or email:
+
+support@axioncore.app
 
 ---
 
@@ -101,7 +123,7 @@ Current beta:
 
 - Windows 10 / 11 x64
 
-Planned:
+Planned after Windows launch stabilizes:
 
 - Linux
 - macOS
@@ -110,4 +132,4 @@ Planned:
 
 ## Status
 
-AXION CORE is in active beta development.
+AXION CORE is in active Windows beta.
