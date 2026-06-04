@@ -9,6 +9,18 @@ Support: support@axioncore.app
 
 ---
 
+## Preview
+
+### Command Center
+
+![AXION CORE Command Center](assets/screenshots/command-center.png)
+
+### Library Planner
+
+![AXION CORE Library Planner](assets/screenshots/library-planner.png)
+
+---
+
 ## Current Beta
 
 AXION CORE is in Windows beta. The beta includes a free mode for testing the workflow, plus a **Pro Lifetime** license for full-library use.
@@ -83,7 +95,7 @@ https://axioncore.app
 
 Or use GitHub Releases:
 
-https://github.com/kozukizoro2/axion-core-download/releases
+https://github.com/axion-core-app/axion-core-download/releases
 
 Use the installer for normal installation, or the portable build if you want to test without installing.
 
